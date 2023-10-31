@@ -20,4 +20,14 @@ if ($virtual_con -> connect_errno) {
   }
 $conn=$virtual_con;
 
+$urlpic="images/restaurant.jpg";
+$title1="coming soon";
+$fblink="fblink.com";
+$xlink="xlink";
+$email="sheikhnasir@vsc.com";
+$soon="Promosi terkini";
+$join="Sila langgani promosi dan masukkan email";
+$find="Cari kan kami di Tiktok dan Mudah";
+$footer="Website Links";
+
 ?>
