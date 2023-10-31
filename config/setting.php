@@ -19,9 +19,17 @@ if ($virtual_con -> connect_errno) {
     //echo "connected";
   }
 $conn=$virtual_con;
+//isset uji variable wujud atau tidak
+if (isset($_GET['id'])){
+    $selected=$_GET['id'];
+}
 
-$urlpic="images/restaurant.jpg";
+//echo $selected;
+//$urlpic="images/restaurant.jpg";
 $title1="coming soon";
+if (isset($_GET['id'])){
+    $title1=$title1.$selected;
+}
 $fblink="fblink.com";
 $xlink="xlink";
 $email="sheikhnasir@vsc.com";
