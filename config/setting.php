@@ -16,7 +16,7 @@ if ($virtual_con -> connect_errno) {
     echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
     exit();
   }else{
-    echo "connected";
+    //echo "connected";
   }
 $conn=$virtual_con;
 
