@@ -52,4 +52,9 @@ $soon="Promosi terkini";
 $join="Sila langgani promosi dan masukkan email";
 $find="Cari kan kami di Tiktok dan Mudah";
 $footer="Website Links";
+if(file_exists("../function/function.php")){
+  include('../function/function.php');
+}else{
+  include('../../function/function.php');
+}
 ?>
